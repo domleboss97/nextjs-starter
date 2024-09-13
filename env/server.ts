@@ -5,9 +5,6 @@ import { z } from "zod"
 export const env = createEnv({
   extends: [shared],
   server: {
-    OPENAI_API_KEY: z.string(),
-    ANTHROPIC_API_KEY: z.string(),
-
     // Stripe
     STRIPE_API_KEY: z.string(),
     STRIPE_MODE: z.enum(["test", "live"]).default("test")

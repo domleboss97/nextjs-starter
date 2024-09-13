@@ -1,13 +1,12 @@
 export const siteConfig = {
   // The name of the project
-  name: "Waz dat?",
+  name: "Hello world",
 
   // A short name for the project, useful for mobile devices
-  shortName: "Waz dat?",
+  shortName: "Hello",
 
   // A description of the project
-  description:
-    "Now what the huh is this? Identify anything in seconds with AI. Powered by advanced vision and language models.",
+  description: "saying hello.",
 
   // Information about the author / company of the site
   author: {
@@ -23,6 +22,5 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/dominic-bosco/"
   },
 
-  // Keywords for the site
-  keywords: ["ai", "ai identification", "identify with ai"]
+  keywords: []
 }
